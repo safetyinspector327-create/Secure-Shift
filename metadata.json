@@ -1,0 +1,8 @@
+{
+  "name": "Secure Shift",
+  "description": "AI-powered shift management and handover tool for security professionals.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
