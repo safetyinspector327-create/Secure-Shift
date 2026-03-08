@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Shift Management Application
 
-# Run and deploy your AI Studio app
+## Project Description
+This Shift Management Application allows organizations to efficiently manage their shift schedules, track employee availability, and ensure optimal staffing at all times. It provides a user-friendly interface for both managers and employees, streamlining shift assignments and communications.
 
-This contains everything you need to run your app locally.
+## Features
+- **User Authentication**: Secure login for managers and employees.
+- **Shift Scheduling**: Easily create and modify shift schedules.
+- **Employee Availability**: Employees can indicate their availability for shifts.
+- **Notifications**: Automated notifications for shift assignments and changes.
+- **Reporting**: Detailed reports on shift coverage and employee hours.
 
-View your app in AI Studio: https://ai.studio/apps/9f6cbf6a-4c27-4b5e-a030-1ba5299b5925
+## Prerequisites
+- Node.js (version 14 or later)
+- npm (Node package manager)
+- MongoDB (for data storage)
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+## Installation
+1. Clone the repository:  
+   `git clone https://github.com/safetyinspector327-create/Secure-Shift.git`
+2. Change into the project directory:  
+   `cd Secure-Shift`
+3. Install dependencies:  
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+## Usage
+- Start the application:  
+   `npm start`
+- Access the application at `http://localhost:3000`
+
+## Contributing Guidelines
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
